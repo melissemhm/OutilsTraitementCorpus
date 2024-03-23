@@ -18,3 +18,7 @@ Le corpus qui m'a inspiré est **_BookCorpus_** https://huggingface.co/datasets/
 >  À quel modèle il a servi :
 
 Le corpus a été utilisé pour entraîner une variété de modèles de traitement du langage naturel, en particulier pour la génération de texte et la modélisation de langage. Il a été utilisé pour l'entraînement de modèles tels que BERT (Bidirectional Encoder Representations from Transformers), GPT (Generative Pre-trained Transformer), RoBERTa (Robustly optimized BERT approach), entre autres.
+
+> Corpus à constituer :
+
+Je vais constituer un corpus similaire en version française, je vais explorer d'autres sources de textes littéraires et effectuer une recherche approfondie pour trouver des textes variés et représentatifs. Une foie le corpus est constitué, je vais effectuez un prétraitement pour les nettoyer et les formater de manière cohérente puis annoter chaque texte avec son genre littéraire correspondant.
