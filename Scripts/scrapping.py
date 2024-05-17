@@ -1,3 +1,19 @@
+"""
+*****************************************************
+Ce script récupère les textes littéraires
+à partir du site https://www.etudes-litteraires.com/ et
+les écrit dans un fichier CSV. Chaque texte
+est découpée en phrases individuelles et écrite comme une
+ligne distincte dans le fichier CSV.
+
+Ce script prend un argument en ligne de commande, qui est
+le chemin du fichier CSV dans lequel écrire les données.
+
+Exemple d'utilisation :
+python3 scrapping.py row.csv
+*****************************************************
+"""
+
 import httpx 
 from lxml import html  
 import csv 
@@ -66,7 +82,7 @@ def main(output_file):
 if __name__ == "__main__":
     # voici la structure de la commande
     if len(sys.argv) != 2:
-        print("Usage: python scrapping.py <output_file>")
+        print("Usage: python3 scrapping.py <output_file>")
         sys.exit(1)
     output_file = sys.argv[1]
     main(output_file)
