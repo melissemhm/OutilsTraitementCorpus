@@ -11,7 +11,7 @@ Ce script prend deux arguments en ligne de commande :
 - Le chemin du fichier CSV de sortie où écrire les données nettoyées.
 
 Exemple d'utilisation :
-python3 cleaning.py row.csv clean.csv
+python3 cleaning.py raw.csv clean.csv
 *****************************************************
 """
 

@@ -10,7 +10,7 @@ Ce script prend un argument en ligne de commande, qui est
 le chemin du fichier CSV dans lequel écrire les données.
 
 Exemple d'utilisation :
-python3 scrapping.py row.csv
+python3 scrapping.py raw.csv
 *****************************************************
 """
 
