@@ -1,5 +1,5 @@
 """
-*****************************************************
+****************************************************
 Ce script utilise le modèle SpaCy afin de lemmatiser le texte
 et calcule la fréquence des mots-clés (donnés aléatoirement) associés à 
 trois thèmes aléatoires: drame, romance et vengeance. Il filtre ensuite
@@ -8,7 +8,7 @@ au moins l'un de ces thèmes.
 
 Exemple d'utilisation :
 python3 Scripts/classement.py 
-*****************************************************
+****************************************************
 """
 
 import pandas as pd
