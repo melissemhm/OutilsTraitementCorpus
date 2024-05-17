@@ -1,5 +1,5 @@
 """
-*****************************************************
+****************************************************
 En faisant le TP de la séance 3, j'avais l'erreur comme quoi 
 des lignes dans mon fichier CSV contiennt plus d'une colonne
 c'est pourquoi j'ai ajouté ce script colonne.py
@@ -14,7 +14,7 @@ Ce script prend deux arguments en ligne de commande :
 
 Exemple d'utilisation :
 python3 colonne.py input_file.csv clean.csv
-*****************************************************
+****************************************************
 """
 
 
